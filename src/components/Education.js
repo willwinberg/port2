@@ -11,21 +11,29 @@ const Education = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>University of Life</h3>
+          <h3>Lambda School</h3>
           <p className="info">
-            Master in Graphic Design
+            Web Development and Computer Science
             <span>&bull;</span>
-            <em className="date">April 2007</em>
+            <em className="date">August 2018</em>
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            Lambda School is a full-time, 6-month online full
+            stack coding school dedicated to teaching the most cutting-edge and
+            in-demand technologies focused around JavaScript.
+            Students will learn front end, back end, mobile, and
+            neural network technologies. Their online classroom
+            experience is the same as any physical classroom,
+            live students, live instructors, full interaction,
+            pair programming, and frequent code reviews. Their
+            online, immersive format allows you to be connected
+            to instructors at all times, chat with other students,
+            or have someone instantly jump in to see your code.
+            Lambda School is committed to helping students find
+            employment by providing interview preparation, portfolio
+            review, effective resume writing tips, and salary
+            negotiation practice.
           </p>
         </div>
       </div>

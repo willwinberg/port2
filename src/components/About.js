@@ -12,31 +12,27 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam.
+          I'm a full stack software engineer from LA, transplanted in the PNW.
+          From layouts to sever endpoints, I love building and learning new
+          things. When I'm not in cyberspace, you'll still usually find me
+          creating things or soaking in the infinite knowledge of this universe
+          in one way or another. That is, unless I'm destroying things, but
+          that's back in cyberspace... Just to clarify, I'm talking about video
+          games.
         </p>
         <div className="row">
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jonathan Doe</span>
+              <span>William Winberg</span>
               <br />
               <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
+                Portland Area
               </span>
               <br />
-              <span>(123)456-7890</span>
+              <span>(626)824-4181</span>
               <br />
-              <span>anyone@website.com</span>
+              <span>wtpwinberg@gmail.com</span>
             </p>
           </div>
           <div className="columns download">
