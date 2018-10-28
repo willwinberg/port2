@@ -35,8 +35,8 @@ const Portfolio = () => (
                 <img alt="" src={Coffee} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
+                    <h5>Rcruit</h5>
+                    <p>An employment app for matching job seekers with the jobs they want and employers with the qualified employees they need.</p>
                   </div>
                 </div>
                 <div className="link-icon">

@@ -4,7 +4,7 @@ import SocialLinks from "./SocialLinks";
 const Banner = () => (
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
+      <h1 className="responsive-headline">I'm William Winberg.</h1>
       <h3>
         I'm a full stack <span>software developer</span> from LA, transplanted in
         the PNW. From <span>responsive</span> UIs to sever endpoints, I love building
