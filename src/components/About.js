@@ -37,8 +37,10 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href="#" className="button">
-                <FaCloudDownload /> Download Resume
+              <a href="https://resume.creddle.io/resume/794jqdftvd3"
+                target="_blank"
+                className="button">
+                <FaCloudDownload /> Resume
               </a>
             </p>
           </div>

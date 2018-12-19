@@ -16,22 +16,22 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <a href="https://github.com/Mehrunes-Dagon">
+      <a href="https://github.com/Mehrunes-Dagon" target="_blank">
         <FaGithub />
       </a>
     </li>
     <li>
-      <a href="linkedin.com/in/william-winberg">
+      <a href="linkedin.com/in/william-winberg" target="_blank">
         <FaLinkedin />
       </a>
     </li>
     <li>
-      <a href="https://www.facebook.com/william.winberg.3">
+      <a href="https://www.facebook.com/william.winberg.3" target="_blank">
         <FaFacebook />
       </a>
     </li>
     <li>
-      <a href="https://www.instagram.com/wiltraparberg/">
+      <a href="https://www.instagram.com/wiltraparberg" target="_blank">
         <FaInstagram />
       </a>
     </li>

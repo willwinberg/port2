@@ -8,10 +8,10 @@ const Banner = () => (
       <h3>
         I'm a full stack <span>software developer</span> from LA, transplanted in
         the PNW. From <span>responsive</span> UIs to sever endpoints, I love building
-        and learning new things.. Let's
+        and learning new things...
         <a className="smoothscroll" href="#about">
           {" "}
-          start scrolling
+          Start scrolling
         </a>{" "}
         and learn more
         <a className="smoothscroll" href="#about">
