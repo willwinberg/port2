@@ -32,7 +32,7 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={Coffee} />
+                <img alt="" src={Coffee} /> 
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Rcruit</h5>

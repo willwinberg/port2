@@ -1,4 +1,4 @@
-# gatsby-starter-ceevee
+# Will's Port
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
@@ -45,3 +45,13 @@ MIT
 * [Aman Mittal](www.amanhimself.me)
 * [Joe](https://github.com/jastuccio)
 * [Elohina](www.elohinaguevara.com)
+
+
+## TODO
+
+[ ] add lambda badge
+[ ] remove empty projects
+[ ] pictures 
+[ ] fix notes app and add
+[ ] make resume a download link
+[ ] remove testemonials
