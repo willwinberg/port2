@@ -14,9 +14,8 @@ const IndexPage = () => (
   <div>
     <Header />
     <About />
-    <Resume />
     <Portfolio />
-    <Testimonials />
+    <Resume />
     <Footer />
   </div>
 );

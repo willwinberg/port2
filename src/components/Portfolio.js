@@ -32,7 +32,7 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={Coffee} /> 
+                <img alt="" src={Coffee} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Rcruit</h5>
@@ -97,7 +97,7 @@ const Portfolio = () => (
             </div>
           </div>
 
-          <div className="columns portfolio-item">
+          {/*<div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-05" title="">
                 <img alt="" src={Farmerboy} />
@@ -163,11 +163,11 @@ const Portfolio = () => (
                 </div>
               </a>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
 
-      <div id="modal-01" className="popup-modal mfp-hide">
+      <div id="modal-01" className="popup-modal mfp-hide border">
         <img
           className="scale-with-grid"
           src={CoffeeModal}
@@ -267,7 +267,7 @@ const Portfolio = () => (
         </div>
       </div>
 
-      <div id="modal-05" className="popup-modal mfp-hide">
+      {/* <div id="modal-05" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
           src={FarmerboyModal}
@@ -365,7 +365,7 @@ const Portfolio = () => (
           <a href="http://www.behance.net">Details</a>
           <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
-      </div>
+      </div> */}
     </div>
   </section>
 );

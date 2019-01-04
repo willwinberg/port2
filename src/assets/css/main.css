@@ -1781,6 +1781,7 @@ ul#nav li.current a {
   position: fixed;
   margin: 0 auto;
   z-index: 99999;
+  border: 1px solid gray;
 }
 .popup-modal .description-box {
   padding: 12px 36px 18px 36px;
