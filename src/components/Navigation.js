@@ -15,7 +15,7 @@ class Navigation extends React.Component {
     })
   }
   render() {
-    const { pathname = '' } = this.state
+    const { pathname = '' } = this.state;
     return (
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" />
@@ -40,7 +40,7 @@ class Navigation extends React.Component {
               Portfolio
           </a>
           </li>
-          
+
           <li className={isCurrent('#testimonials', pathname)}>
             <a className="smoothscroll" href="#testimonials">
               Testimonials
