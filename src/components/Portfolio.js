@@ -50,9 +50,33 @@ const Portfolio = () => {
               modal={ConsoleModal}
               id={"modal-02"}
               synopsis={"A note-taking app built out with React, Redux, MongoDB and Express which features a scalable API and user authentication"}
-              tech={"Node, React, MongoDB, Express, Bootstap"}
+              tech={"Node, React, MongoDB, Express, Bootstrap"}
               url={"https://bills-notes.herokuapp.com/"}
               git={"https://github.com/Mehrunes-Dagon/notesapp"}
+            />
+            <Project
+              route={"#modal-03"}
+              pic={Judah}
+              title={"whereami"}
+              description={"A web app that uses you location to tell you what the season is."}
+              modal={JudahModal}
+              id={"modal-03"}
+              synopsis={"This app makes use of the cool navigator.geolocation API and uses the latitude and longitude of the IP address of the user to predict the season of their hemesphere."}
+              tech={"React, geolocation API, semantic-ui"}
+              url={"https://seasons.netlify.com/"}
+              git={"https://github.com/Mehrunes-Dagon/seasons"}
+            />
+            <Project
+              route={"#modal-04"}
+              pic={IntoTheLight}
+              title={"CustomerMGMT"}
+              description={"A web app for keeping track of customers' charge account balances."}
+              modal={IntoTheLightModal}
+              id={"modal-04"}
+              synopsis={"This app uses a MySQL database to keep track of managers and their corresponding employees. A user may create, edit and delete an account. Also, they may andd employees to their account with details."}
+              tech={"PHP, PDO, Jquery, Bootstrap"}
+              url={"https://helloworldwide.tech/"}
+              git={"https://github.com/Mehrunes-Dagon/cusmgmt"}
             />
           </div>
         </div>
