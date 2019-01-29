@@ -402,7 +402,7 @@ abbr:hover {
   margin: 0;
   padding: 14px 6px 0 0;
   font-size: 84px;
-  font-family: /* Copperplate */ "opensans-bold", sans-serif;
+  font-family: "opensans-bold", sans-serif;
   line-height: 60px;
   text-indent: 0;
   background: transparent;
@@ -1810,10 +1810,11 @@ ul#nav li.current a {
 .popup-modal .link-box {
   padding: 18px 36px;
   background: #111;
-  text-align: left;
+  text-align: center;
 }
 .popup-modal .link-box a {
   color: #fff;
+  padding: 0 20px;
   font: 11px/21px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -1821,9 +1822,6 @@ ul#nav li.current a {
 }
 .popup-modal a:hover {
   color: #00cccc;
-}
-.popup-modal a.popup-modal-dismiss {
-  margin-left: 24px;
 }
 
 /* fadein/fadeout effect for modal popup

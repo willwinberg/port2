@@ -31,21 +31,24 @@ const Portfolio = () => {
             className="bgrid-quarters s-bgrid-thirds cf"
           >
             <Project
-              id={"#modal-01"}
+              route={"#modal-01"}
               pic={Coffee}
               title={"Rcruit"}
               description={"An employment app for matching job seekers with the jobs they want and employers with the qualified employees they need."}
               modal={CoffeeModal}
+              id={"modal-01"}
               synopsis={"Built in the MERN stack, an employment app for matching talent with the jobs they want and employers with the qualified employees they need. It utilizes a swipe interface where potential candidates and employers alike can filter through the fluff in an efficient and straightforward manner, eliminating the painstaking and tedious tasks of job searching or recruiting"}
               tech={"Node, React, MongoDB, Express, styled-components"}
               url={"http://www.rcruit.app"}
               git={"https://github.com/Lambda-School-Labs/CS8-jobme"}
             />
             <Project
-              id={"#modal-02"}
+              route={"#modal-02"}
+              pic={Console}
               title={"Lambda Notes"}
               description={"A note-taking app built out with React, Redux, MongoDB and Express which features a scalable API and user authentication."}
-              pic={Console}
+              modal={ConsoleModal}
+              id={"modal-02"}
               synopsis={"A note-taking app built out with React, Redux, MongoDB and Express which features a scalable API and user authentication"}
               tech={"Node, React, MongoDB, Express, Bootstap"}
               url={"https://bills-notes.herokuapp.com/"}

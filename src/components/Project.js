@@ -7,7 +7,7 @@ const Project = (props) => {
       <div>
          <div className="columns portfolio-item">
             <div className="item-wrap">
-               <a href={props.id} title="">
+               <a href={props.route} title="">
                   <img alt="" src={props.pic} />
                   <div className="overlay">
                      <div className="portfolio-item-meta">
@@ -21,6 +21,7 @@ const Project = (props) => {
                </a>
             </div>
          </div>
+
 
          <div id={props.id} className="popup-modal mfp-hide border">
             <img
