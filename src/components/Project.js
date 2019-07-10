@@ -9,13 +9,13 @@ class Project extends React.Component {
       window.location.href = "#portfiolio";
    }
 
-   componentWillMount() {
+   componentDidMount() {
       document.addEventListener('click', this.handleClick, false);
    }
 
-   componentWillUnmount() {
-      document.removeEventListener('click', this.handleClick, false);
-   }
+   // componentWillUnmount() {
+   //    document.removeEventListener('click', this.handleClick, false);
+   // }
 
    render() {
       return (
