@@ -19,26 +19,17 @@ const Education = () => (
           </p>
 
           <p>
-            Lambda School is a full-time, 6-month online full
-            stack coding school dedicated to teaching the most cutting-edge and
-            in-demand technologies focused around JavaScript.
-            Students will learn front end, back end, mobile, and
-            neural network technologies. Their online classroom
-            experience is the same as any physical classroom,
-            live students, live instructors, full interaction,
-            pair programming, and frequent code reviews. Their
-            online, immersive format allows you to be connected
-            to instructors at all times, chat with other students,
-            or have someone instantly jump in to see your code.
-            Lambda School is committed to helping students find
-            employment by providing interview preparation, portfolio
-            review, effective resume writing tips, and salary
-            negotiation practice.
-          </p>
+            A 9 month Computer Science & Software Engineering Academy that provides an immersive hands-on curriculum with a focus on computer science, and fullstack web development
+            </p>
+          <li>Approach all coding challenges using pair programming</li>
+          <li>Utilize agile software development and Git workflow on all projects</li>
+          <li>Gain hands-on experience with client and server testing</li>
+          <li>Design original user experiences across a range of web and mobile platforms, from ideation, to wireframing, to final product</li>
+          <li>Complete all curriculum course work including: React, React Native, Redux, Node, Express, MongoDB, Jest, Python, Django • Write production-ready code using ReactJS, Redux, and CSS on the frontend and NodeJS and Express on the backend to build single page applications</li>
         </div>
       </div>
     </div>
-  </div>
+  </div >
 );
 
 export default Education;

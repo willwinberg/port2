@@ -51,8 +51,8 @@ class Project extends React.Component {
                   </span>
                </div>
                <div className="link-box">
-                  <a href={this.props.link}>Demo</a>
-                  <a href={this.props.git}>Github</a>
+                  <a href={this.props.url} target="_blank">Demo</a>
+                  <a href={this.props.git} target="_blank">Github</a>
                   <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                </div>
             </div>

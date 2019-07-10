@@ -18,35 +18,11 @@ const Work = () => (
             <em className="date">March 2019 - Present</em>
           </p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
-          </p>
-        </div>
-      </div>
+          <li>Preparing existing platform for massive consolidation and integrating several apps in to one source of truth</li>
+          <li>Visualize, design, and develop creative and innovative upgrades to the massive code base, being sure that changes are scalable, efficient, well reviewed and checked regularly for continuous integration</li>
+          <li>Examine existing systems, identifying flaws and creating solutions to improve customer and employee experience</li>
+          <li>Plan and execute the full software development life cycle for each assigned project, adhering to company standards and expectations</li>
 
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>Freelance</h3>
-          <p className="info">
-            Software Developer
-            <span>&bull;</span>
-            <em className="date">August 2017 - Present</em>
-          </p>
-
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
-          </p>
         </div>
       </div>
     </div>

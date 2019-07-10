@@ -17,64 +17,74 @@ const Skills = () => (
         <div className="bars">
           <ul className="skills">
             <li>
-              <span className="bar-expand javascript" />
-              <em>PHP</em>
+              <em>Javascript</em>
             </li>
             <li>
-              <span className="bar-expand react" />
-              <em>Laravel</em>
+              <em>React</em>
             </li>
             <li>
-              <span className="bar-expand react" />
-              <em>SQL</em>
+              <em>Redux</em>
             </li>
             <li>
-              <span className="bar-expand mongodb" />
               <em>Vue</em>
             </li>
             <li>
-              <span className="bar-expand mongodb" />
-              <em>MongoDB</em>
+              <em>Nuxt</em>
             </li>
             <li>
-              <span className="bar-expand css" />
               <em>CSS3</em>
             </li>
             <li>
-              <span className="bar-expand html5" />
               <em>HTML5</em>
+            </li>
+            <li>
+              <em>Axios</em>
+            </li>
+            <li>
+              <em>Ajax</em>
+            </li>
+            <li>
+              <em>jQuery</em>
+            </li>
+            <li>
+              <em>Bootstrap</em>
             </li>
           </ul>
         </div>
         <div className="bars">
           <ul className="skills">
             <li>
-              <span className="bar-expand javascript" />
-              <em>Javascript</em>
+              <em>PHP</em>
             </li>
             <li>
-              <span className="bar-expand react" />
-              <em>React</em>
+              <em>Laravel</em>
             </li>
             <li>
-              <span className="bar-expand react" />
+              <em>Node</em>
+            </li>
+            <li>
               <em>Express</em>
             </li>
             <li>
-              <span className="bar-expand mongodb" />
-              <em>Nodejs</em>
-            </li>
-            <li>
-              <span className="bar-expand mongodb" />
               <em>MongoDB</em>
             </li>
             <li>
-              <span className="bar-expand css" />
-              <em>CSS3</em>
+              <em>SQL</em>
             </li>
             <li>
-              <span className="bar-expand html5" />
-              <em>HTML5</em>
+              <em>Redux</em>
+            </li>
+            <li>
+              <em>Python</em>
+            </li>
+            <li>
+              <em>Django</em>
+            </li>
+            <li>
+              <em>OAuth</em>
+            </li>
+            <li>
+              <em>C++</em>
             </li>
           </ul>
         </div>
