@@ -357,7 +357,7 @@ blockquote cite a:visited {
 /* --------------------------------------------------------------------- */
 .pull-quote {
   position: relative;
-  padding: 18px 30px 18px 0px;
+  padding: 18px 30px 18px 0;
 }
 .pull-quote:before,
 .pull-quote:after {
@@ -1495,7 +1495,10 @@ ul#nav li.current a {
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-
+.skill-tables {
+  display: flex;
+  padding-right: 0;
+}
 .bars {
   width: 95%;
   float: left;
@@ -2600,6 +2603,10 @@ footer .social li:first-child {
   }
   #resume .main-col {
     padding-right: 30px;
+  }
+  #resume .main-col {
+    padding-right: 30px;
+    display: flex;
   }
   #resume h3,
   #resume .info {

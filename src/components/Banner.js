@@ -7,17 +7,8 @@ const Banner = () => (
       <h1 className="responsive-headline">I'm William Winberg.</h1>
       <h3>
         I'm a full stack <span>software developer</span> from LA, transplanted in
-        the PNW. From <span>responsive</span> UIs to sever endpoints, I love building
-        and learning new things...
-        <a className="smoothscroll" href="#about">
-          {" "}
-          Start scrolling
-        </a>{" "}
-        and learn more
-        <a className="smoothscroll" href="#about">
-          {" "}
-          about me
-        </a>.
+        the PNW. From responsive UIs to sever endpoints, I love building
+        and learning new things... Start scrolling and learn more about me.
       </h3>
       <hr />
       <SocialLinks />

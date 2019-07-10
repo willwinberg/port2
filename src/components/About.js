@@ -27,17 +27,15 @@ const About = () => (
               <span>William Winberg</span>
               <br />
               <span>
-                Portland Area
+                Southern Utah
               </span>
               <br />
-              <span>(626)824-4181</span>
-              <br />
-              <span>wtpwinberg@gmail.com</span>
+              <span><a href="mailto:wtpwinberg@gmail.com">wtpwinberg@gmail.com</a></span>
             </p>
           </div>
           <div className="columns download">
             <p>
-              <a href="https://resume.creddle.io/resume/65upvwd36iu"
+              <a href="https://resume.creddle.io/embed/65upvwd36iu"
                 target="_blank"
                 className="button">
                 Resume

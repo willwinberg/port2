@@ -25,11 +25,23 @@ const Portfolio = () => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>Check Out Some of My Projects.</h1>
           <div
             id="portfolio-wrapper"
             className="bgrid-quarters s-bgrid-thirds cf"
           >
+            <Project
+              route={"#modal-05"}
+              pic={Farmerboy}
+              title={"BlueTube"}
+              description={"Like YouTube but only sad videos are allowed"}
+              modal={FarmerboyModal}
+              id={"modal-05"}
+              synopsis={""}
+              tech={"OOPHP, Vimeo API, Ajax, Jquery, Bootstrap"}
+              url={""}
+              git={"https://github.com/willwinberg/bluetube"}
+            />
             <Project
               route={"#modal-01"}
               pic={Coffee}
@@ -52,7 +64,7 @@ const Portfolio = () => {
               synopsis={"A note-taking app built out with React, Redux, MongoDB and Express which features a scalable API and user authentication"}
               tech={"Node, React, MongoDB, Express, Bootstrap"}
               url={"https://bills-notes.herokuapp.com/"}
-              git={"https://github.com/Mehrunes-Dagon/notesapp"}
+              git={"https://github.com/willwinberg/notesapp"}
             />
             <Project
               route={"#modal-03"}
@@ -64,7 +76,7 @@ const Portfolio = () => {
               synopsis={"This app makes use of the cool navigator.geolocation API and uses the latitude and longitude of the IP address of the user to predict the season of their hemesphere."}
               tech={"React, geolocation API, semantic-ui"}
               url={"https://seasons.netlify.com/"}
-              git={"https://github.com/Mehrunes-Dagon/seasons"}
+              git={"https://github.com/willwinberg/seasons"}
             />
             <Project
               route={"#modal-04"}
@@ -76,7 +88,7 @@ const Portfolio = () => {
               synopsis={"This app uses a MySQL database to keep track of managers and their corresponding employees. A user may create, edit and delete an account. Also, they may andd employees to their account with details."}
               tech={"PHP, PDO, Jquery, Bootstrap"}
               url={"https://helloworldwide.tech/"}
-              git={"https://github.com/Mehrunes-Dagon/cusmgmt"}
+              git={"https://github.com/willwinberg/cusmgmt"}
             />
           </div>
         </div>

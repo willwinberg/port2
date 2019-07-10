@@ -11,11 +11,11 @@ const Work = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
+          <h3>G.O. Green Enterprises</h3>
           <p className="info">
-            Senior UX Designer
+            Software Engineer
             <span>&bull;</span>
-            <em className="date">March 2010 - Present</em>
+            <em className="date">March 2019 - Present</em>
           </p>
 
           <p>
@@ -32,11 +32,11 @@ const Work = () => (
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
+          <h3>Freelance</h3>
           <p className="info">
-            UX Designer
+            Software Developer
             <span>&bull;</span>
-            <em className="date">March 2007 - February 2010</em>
+            <em className="date">August 2017 - Present</em>
           </p>
 
           <p>

@@ -48,7 +48,7 @@ class Navigation extends React.Component {
           </li>
           <li className={isCurrent('#footer', pathname)}>
             <a className="smoothscroll" href="#footer">
-              Footer
+              Contact
           </a>
           </li>
         </ul>
