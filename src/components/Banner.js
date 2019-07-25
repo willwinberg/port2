@@ -9,7 +9,6 @@ const Banner = () => (
         I'm a software developer. From reactive UIs to complex data structures to relational database models,
         I love building and learning new things... Start scrolling to learn more about me.
       </h3>
-      <hr />
       <SocialLinks />
     </div>
   </div>
