@@ -2,20 +2,20 @@ import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 import Project from "./Project";
 
-import Coffee from "../assets/images/portfolio/coffee.jpg";
+import Rcruit from "../assets/images/portfolio/rcruit.jpg";
 import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
 import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
-import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
+import BlueTube from "../assets/images/portfolio/bluetube.jpg";
 import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
-import CoffeeModal from "../assets/images/portfolio/modals/m-coffee.jpg";
+import RcruitModal from "../assets/images/portfolio/modals/m-rcruit.jpg";
 import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
 import JudahModal from "../assets/images/portfolio/modals/m-judah.jpg";
 import IntoTheLightModal from "../assets/images/portfolio/modals/m-intothelight.jpg";
-import FarmerboyModal from "../assets/images/portfolio/modals/m-farmerboy.jpg";
+import BlueTubeModal from "../assets/images/portfolio/modals/m-bluetube.jpg";
 import GirlModal from "../assets/images/portfolio/modals/m-girl.jpg";
 import OrigamiModal from "../assets/images/portfolio/modals/m-origami.jpg";
 import RetrocamModal from "../assets/images/portfolio/modals/m-retrocam.jpg";
@@ -32,22 +32,22 @@ const Portfolio = () => {
           >
             <Project
               route={"#modal-05"}
-              pic={Farmerboy}
+              pic={BlueTube}
               title={"BlueTube"}
               description={"Like YouTube but only sad videos are allowed"}
-              modal={FarmerboyModal}
+              modal={BlueTubeModal}
               id={"modal-05"}
-              synopsis={""}
-              tech={"OOPHP, Vimeo API, Ajax, Jquery, Bootstrap"}
-              url={""}
-              git={"https://github.com/willwinberg/bluetube"}
+              synopsis={"This is a cool YouTube clone I made to help me learn PHP. It handles video uploads as well as avatar photo uploads. Also has functionality for users to subscribe to channels, like or dislike videos, leave comments, like or dislike comments and search for and sort videos. Unfortunately, since I don't have the super cool job yet that you're looking to fill, you should stick to small file uploads if you want to test it out. It was pretty amazing moving on to Laravel after building this from scratch.. Haha"}
+              tech={"Vanilla PHP, PDO, ffmpeg, Ajax, Jquery, Bootstrap"}
+              url={"http://www.bluetube.site"}
+              git={"https://github.com/willwinberg/bluetube-vanilla"}
             />
             <Project
               route={"#modal-01"}
-              pic={Coffee}
+              pic={Rcruit}
               title={"Rcruit"}
               description={"An employment app for matching job seekers with the jobs they want and employers with the qualified employees they need."}
-              modal={CoffeeModal}
+              modal={RcruitModal}
               id={"modal-01"}
               synopsis={"Built in the MERN stack, an employment app for matching talent with the jobs they want and employers with the qualified employees they need. It utilizes a swipe interface where potential candidates and employers alike can filter through the fluff in an efficient and straightforward manner, eliminating the painstaking and tedious tasks of job searching or recruiting"}
               tech={"Node, React, MongoDB, Express, styled-components"}
