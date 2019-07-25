@@ -7,7 +7,7 @@ import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
 import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
 import BlueTube from "../assets/images/portfolio/bluetube.jpg";
-import Girl from "../assets/images/portfolio/girl.jpg";
+import Gogrello from "../assets/images/portfolio/gogrello.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
@@ -16,7 +16,7 @@ import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
 import JudahModal from "../assets/images/portfolio/modals/m-judah.jpg";
 import IntoTheLightModal from "../assets/images/portfolio/modals/m-intothelight.jpg";
 import BlueTubeModal from "../assets/images/portfolio/modals/m-bluetube.jpg";
-import GirlModal from "../assets/images/portfolio/modals/m-girl.jpg";
+import GogrelloModal from "../assets/images/portfolio/modals/m-gogrello.jpg";
 import OrigamiModal from "../assets/images/portfolio/modals/m-origami.jpg";
 import RetrocamModal from "../assets/images/portfolio/modals/m-retrocam.jpg";
 
@@ -53,6 +53,18 @@ const Portfolio = () => {
               tech={"Node, React, MongoDB, Express, styled-components"}
               url={"http://www.rcruit.app"}
               git={"https://github.com/Lambda-School-Labs/CS8-jobme"}
+            />
+            <Project
+              route={"#modal-05"}
+              pic={Gogrello}
+              title={"gogrello"}
+              description={"A Trello-like app I'm building for Go Green so we can better manage our tasks"}
+              modal={GogrelloModal}
+              id={"modal-05"}
+              synopsis={"This is a work in progress but I'm pretty happy with it so far. I got do play around with vanilla DOM drag and drop events to hand that functionality. So far, this is just the front end, using Vue. I'm still working on the back-end Node part. It's exciting that this will actually be used in a professional setting"}
+              tech={"Vue, Node, Express, Mongo, OAuth, tailwind-css"}
+              url={"https://gogrello.netlify.com/"}
+              git={"https://github.com/willwinberg/gogrello"}
             />
             <Project
               route={"#modal-02"}

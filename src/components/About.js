@@ -12,10 +12,9 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          I'm a full stack software engineer from LA, transplanted in the PNW.
-          From layouts to sever endpoints, I love building and learning new
-          things. When I'm not in cyberspace, you'll still usually find me
-          creating things or soaking in the infinite knowledge of this universe
+          I'm a full stack software engineer from LA, transplanted in Southern Utah.
+          I'm in love with Javascript and making the internet better than it was when I started. When I'm not in cyberspace, you'll still usually find me
+          making things, physically, or soaking in the infinite knowledge of this universe
           in one way or another. That is, unless I'm destroying things, but
           that's back in cyberspace... Just to clarify, I'm talking about video
           games.

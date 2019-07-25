@@ -6,8 +6,8 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">I'm William Winberg.</h1>
       <h3>
-        I'm a <span>software developer</span>. From responsive UIs to sever endpoints, I love building
-        and learning new things... Start scrolling and learn more about me.
+        I'm a software developer. From reactive UIs to complex data structures to relational database models,
+        I love building and learning new things... Start scrolling to learn more about me.
       </h3>
       <hr />
       <SocialLinks />
