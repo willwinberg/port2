@@ -55,12 +55,12 @@ const Portfolio = () => {
               git={"https://github.com/Lambda-School-Labs/CS8-jobme"}
             />
             <Project
-              route={"#modal-05"}
+              route={"#modal-06"}
               pic={Gogrello}
               title={"gogrello"}
               description={"A Trello-like app I'm building for Go Green so we can better manage our tasks"}
               modal={GogrelloModal}
-              id={"modal-05"}
+              id={"modal-06"}
               synopsis={"This is a work in progress but I'm pretty happy with it so far. I got do play around with vanilla DOM drag and drop events to hand that functionality. So far, this is just the front end, using Vue. I'm still working on the back-end Node part. It's exciting that this will actually be used in a professional setting"}
               tech={"Vue, Node, Express, Mongo, OAuth, tailwind-css"}
               url={"https://gogrello.netlify.com/"}
