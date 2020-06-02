@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d576487a-1eb8-43a8-b8d8-427a44e717df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +25,7 @@
   </component>
   <component name="ProjectId" id="1OVn5kaxf5qpsiVBg0jiJSzWbPr" />
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -57,7 +57,7 @@
       <updated>1557550638192</updated>
       <workItem from="1557550640206" duration="1315000" />
       <workItem from="1564071456201" duration="634000" />
-      <workItem from="1564457667110" duration="71000" />
+      <workItem from="1564457667110" duration="450000" />
     </task>
     <servers />
   </component>
