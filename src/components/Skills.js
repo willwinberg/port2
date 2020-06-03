@@ -10,7 +10,7 @@ const Skills = () => (
 
     <div className="twelve main-col">
       <p>
-        I am a full-stack developer well versed in the MERN stack as well as many other languages, technologies and frameworks.
+        I am a full-stack developer versed in many technologies and frameworks. Here are a few.
       </p>
 
       <div className="skill-tables">
@@ -20,34 +20,22 @@ const Skills = () => (
               <em>Javascript</em>
             </li>
             <li>
-              <em>React</em>
-            </li>
-            <li>
-              <em>Redux</em>
-            </li>
-            <li>
               <em>Vue</em>
             </li>
             <li>
+              <em>Vuex</em>
+            </li>
+            <li>
               <em>Nuxt</em>
+            </li>
+            <li>
+              <em>HTTP Protocol</em>
             </li>
             <li>
               <em>CSS3</em>
             </li>
             <li>
               <em>HTML5</em>
-            </li>
-            <li>
-              <em>Axios</em>
-            </li>
-            <li>
-              <em>Ajax</em>
-            </li>
-            <li>
-              <em>jQuery</em>
-            </li>
-            <li>
-              <em>Bootstrap</em>
             </li>
           </ul>
         </div>
@@ -72,19 +60,7 @@ const Skills = () => (
               <em>SQL</em>
             </li>
             <li>
-              <em>Redux</em>
-            </li>
-            <li>
-              <em>Python</em>
-            </li>
-            <li>
-              <em>Django</em>
-            </li>
-            <li>
               <em>OAuth</em>
-            </li>
-            <li>
-              <em>C++</em>
             </li>
           </ul>
         </div>
