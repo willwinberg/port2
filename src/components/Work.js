@@ -25,7 +25,7 @@ const Work = () => (
       </div>
     </div>
 
-    <div className="nine columns main-col">
+    <div className="nine columns main-col pull-right" style={{marginTop: '2em'}}>
       <div className="row item">
         <div className="twelve columns">
           <h3>PassiveCrypto</h3>

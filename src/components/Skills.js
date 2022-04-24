@@ -23,13 +23,10 @@ const Skills = () => (
               <em>Vue</em>
             </li>
             <li>
-              <em>Vuex</em>
-            </li>
-            <li>
               <em>Nuxt</em>
             </li>
             <li>
-              <em>HTTP Protocol</em>
+              <em>Gridsome</em>
             </li>
             <li>
               <em>CSS3</em>
@@ -42,16 +39,13 @@ const Skills = () => (
         <div className="bars">
           <ul className="skills">
             <li>
+              <em>Node</em>
+            </li>
+            <li>
               <em>PHP</em>
             </li>
             <li>
               <em>Laravel</em>
-            </li>
-            <li>
-              <em>Node</em>
-            </li>
-            <li>
-              <em>Express</em>
             </li>
             <li>
               <em>MongoDB</em>
