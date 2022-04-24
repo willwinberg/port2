@@ -1,24 +1,16 @@
 import React from "react";
-import { FaPlus, FaTag } from "react-icons/lib/fa";
 import Project from "./Project";
 
-import Rcruit from "../assets/images/portfolio/rcruit.jpg";
-import Console from "../assets/images/portfolio/console.jpg";
-import Judah from "../assets/images/portfolio/judah.jpg";
-import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
+import CloudManager from "../assets/images/portfolio/cloudmanager.png";
+import CloudManagerModal from "../assets/images/portfolio/modals/m-cloudmanager.png";
+import Snio from "../assets/images/portfolio/snio.png";
+import SnioModal from "../assets/images/portfolio/modals/m-snio.png";
 import BlueTube from "../assets/images/portfolio/bluetube.jpg";
-import Gogrello from "../assets/images/portfolio/gogrello.jpg";
-import PassiveCrypto from "../assets/images/portfolio/passivecrypto.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
-
-import RcruitModal from "../assets/images/portfolio/modals/m-rcruit.jpg";
-import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
-import JudahModal from "../assets/images/portfolio/modals/m-judah.jpg";
-import IntoTheLightModal from "../assets/images/portfolio/modals/m-intothelight.jpg";
 import BlueTubeModal from "../assets/images/portfolio/modals/m-bluetube.jpg";
+import Gogrello from "../assets/images/portfolio/gogrello.jpg";
 import GogrelloModal from "../assets/images/portfolio/modals/m-gogrello.jpg";
+import PassiveCrypto from "../assets/images/portfolio/passivecrypto.jpg";
 import PassiveCryptoModal from "../assets/images/portfolio/modals/m-passivecrypto.jpg";
-import RetrocamModal from "../assets/images/portfolio/modals/m-retrocam.jpg";
 
 const Portfolio = () => {
   return (
@@ -30,6 +22,30 @@ const Portfolio = () => {
             id="portfolio-wrapper"
             className="bgrid-quarters s-bgrid-thirds cf"
           >
+            <Project
+              route={"#modal-07"}
+              pic={CloudManager}
+              title={"StreamNative Cloud UI"}
+              description={"A web UI for Apache Pulsar as a service."}
+              modal={CloudManagerModal}
+              id={"modal-07"}
+              synopsis={"StreamNative Cloud delivers a resilient and scalable messaging and event streaming service deployable in minutes. We'll manage Pulsar for you so that you don't have to spend time or resources to deploy, upgrade, or maintain your clusters."}
+              tech={"Vue 3, Vuex, Tailwind, Quasar-UI"}
+              url={"https://auth.streamnative.cloud/login"}
+              git={"https://github.com/streamnative"}
+            />
+            <Project
+              route={"#modal-08"}
+              pic={Snio}
+              title={"streamnative.io"}
+              description={"The front facing marketing site for StreamNative."}
+              modal={SnioModal}
+              id={"modal-08"}
+              synopsis={"This app uses a MySQL database to keep track of managers and their corresponding employees. A user may create, edit and delete an account. Also, they may andd employees to their account with details."}
+              tech={"Gridsome/Vue, Netlify CMS, SSR, tailwind"}
+              url={"https://streamnative.io/"}
+              git={"https://github.com/streamnative"}
+            />
             <Project
                 route={"#modal-01"}
                 pic={PassiveCrypto}
@@ -66,54 +82,6 @@ const Portfolio = () => {
               url={"http://www.bluetube.site"}
               git={"https://github.com/willwinberg/bluetube-vanilla"}
             />
-            <Project
-              route={"#modal-04"}
-              pic={Rcruit}
-              title={"Rcruit"}
-              description={"An employment app for matching job seekers with the jobs they want and employers with the qualified employees they need."}
-              modal={RcruitModal}
-              id={"modal-04"}
-              synopsis={"Built in the MERN stack, an employment app for matching talent with the jobs they want and employers with the qualified employees they need. It utilizes a swipe interface where potential candidates and employers alike can filter through the fluff in an efficient and straightforward manner, eliminating the painstaking and tedious tasks of job searching or recruiting"}
-              tech={"Node, React, MongoDB, Express, styled-components"}
-              url={"http://www.rcruit.app"}
-              git={"https://github.com/Lambda-School-Labs/CS8-jobme"}
-            />
-            <Project
-              route={"#modal-05"}
-              pic={Console}
-              title={"Lambda Notes"}
-              description={"A note-taking app built out with React, Redux, MongoDB and Express which features a scalable API and user authentication."}
-              modal={ConsoleModal}
-              id={"modal-05"}
-              synopsis={"A note-taking app built out with React, Redux, MongoDB and Express which features a scalable API and user authentication"}
-              tech={"Node, React, MongoDB, Express, Bootstrap"}
-              url={"https://bills-notes.herokuapp.com/"}
-              git={"https://github.com/willwinberg/notesapp"}
-            />
-            <Project
-              route={"#modal-06"}
-              pic={Judah}
-              title={"whereami"}
-              description={"A web app that uses you location to tell you what the season is."}
-              modal={JudahModal}
-              id={"modal-06"}
-              synopsis={"This app makes use of the cool navigator.geolocation API and uses the latitude and longitude of the IP address of the user to predict the season of their hemesphere."}
-              tech={"React, geolocation API, semantic-ui"}
-              url={"https://seasons.netlify.com/"}
-              git={"https://github.com/willwinberg/seasons"}
-            />
-            {/*<Project*/}
-            {/*  route={"#modal-04"}*/}
-            {/*  pic={IntoTheLight}*/}
-            {/*  title={"CustomerMGMT"}*/}
-            {/*  description={"A web app for keeping track of customers' charge account balances."}*/}
-            {/*  modal={IntoTheLightModal}*/}
-            {/*  id={"modal-04"}*/}
-            {/*  synopsis={"This app uses a MySQL database to keep track of managers and their corresponding employees. A user may create, edit and delete an account. Also, they may andd employees to their account with details."}*/}
-            {/*  tech={"PHP, PDO, Jquery, Bootstrap"}*/}
-            {/*  url={"https://helloworldwide.tech/"}*/}
-            {/*  git={"https://github.com/willwinberg/cusmgmt"}*/}
-            {/*/>*/}
           </div>
         </div>
       </div>

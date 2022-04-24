@@ -9,7 +9,7 @@ const Footer = () => (
         <SocialLinks />
 
         <ul className="copyright">
-          <li>&copy; Copyright 2018 William Winberg</li>
+          <li>&copy; Copyright 2022 William Winberg</li>
         </ul>
       </div>
 

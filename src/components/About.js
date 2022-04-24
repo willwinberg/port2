@@ -12,7 +12,7 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          I'm a full stack software developer from LA, transplanted in Southern Utah.
+          I'm a full stack software developer from LA, transplanted in Austin, TX.
           I'm in love with Javascript and making the internet better than it was before I started.
           When I'm not in cyberspace, you'll still usually find me making things in the physical realm, or otherwise
           soaking in the infinite knowledge of this universe. That is, unless I'm destroying things, but
@@ -25,7 +25,7 @@ const About = () => (
               <span>William Winberg</span>
               <br />
               <span>
-                Southern Utah
+                Austin, TX
               </span>
               <br />
               <span><a href="mailto:wtpwinberg@gmail.com">wtpwinberg@gmail.com</a></span>

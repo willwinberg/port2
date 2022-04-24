@@ -11,21 +11,37 @@ const Work = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
+          <h3>StreamNative</h3>
+          <p className="info">
+            Software Engineer
+            <span>&bull;</span>
+            <em className="date">Feb 2021 - Present</em>
+          </p>
+          <li>Modularized the entire customer facing application into a custom component library leveraging Vue SFCs and Vuex, while swapping over to Vue 3/Composition API</li>
+          <li>Built from scratch a Gridsome marketing site that leverages Netlify CMS for marketing teams to manage content without the need for developers' time</li>
+          <li>Put in to place an extensive style guide and employed TypeScript and ESLint to ensure quality in a growing repositories with several contributors</li>
+          <li>Collaborate closely with other engineers and marketing personnel alike to deliver quality solutions to problems, adapting to rapidly evolving needs</li>
+        </div>
+      </div>
+    </div>
+
+    <div className="nine columns main-col">
+      <div className="row item">
+        <div className="twelve columns">
           <h3>PassiveCrypto</h3>
           <p className="info">
             Software Developer
             <span>&bull;</span>
-            <em className="date">November 2019 - Present</em>
+            <em className="date">November 2019 - Feb 2021</em>
           </p>
-
           <li>Made partner within three months of being hired</li>
-          <li>Design, implement and develop new features to the codebase as well as improve existing code</li>
+          <li>Leveraged Vue/Vuex/Tailwind to build an intuitive single page application for users to manage their crypto auto rebalancing</li>
+          <li>Implement from start to finish the integration of rebalancing support for additional crypto exchanges</li>
           <li>Involved in all phases and steps in the software development life-cycle: requirements, design, implementation, testing and improving</li>
-          <li>Work as a team adhering to agile and scrum philosophies as well as solo</li>
-
         </div>
       </div>
     </div>
+
     <div className="nine columns main-col" style={{marginTop: '2em'}}>
       <div className="row item">
         <div className="twelve columns">
@@ -35,12 +51,10 @@ const Work = () => (
             <span>&bull;</span>
             <em className="date">March 2019 - November 2019</em>
           </p>
-
-          <li>Preparing existing platform for massive consolidation and integrating several apps in to one source of truth</li>
-          <li>Visualize, design, and develop creative and innovative upgrades to the massive code base, being sure that changes are scalable, efficient, well reviewed and checked regularly for continuous integration</li>
+          <li>Built from scratch (Nuxt/Node/Mongo) a custom task management app to be use internally by engineers and non-technical management alike</li>
+          <li> Preparing existing platforms for massive consolidation and integrating several Laravel apps in to one source of truth with custom composer packages</li>
+          <li>Visualize, design, and develop new ecommerce features, being sure that changes are scalable, efficient, well reviewed and continuously integrated</li>
           <li>Examine existing systems, identifying flaws and creating solutions to improve customer and employee experience</li>
-          <li>Plan and execute the full software development life cycle for each assigned project, adhering to company standards and expectations</li>
-
         </div>
       </div>
     </div>
