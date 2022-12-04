@@ -17,16 +17,16 @@ const Skills = () => (
         <div className="bars">
           <ul className="skills">
             <li>
-              <em>Javascript</em>
+              <em>JavaScript</em>
             </li>
             <li>
-              <em>Vue</em>
+              <em>TypeScript</em>
             </li>
             <li>
               <em>Nuxt</em>
             </li>
             <li>
-              <em>Gridsome</em>
+              <em>Vue 3</em>
             </li>
             <li>
               <em>CSS3</em>

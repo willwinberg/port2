@@ -34,7 +34,7 @@ const Work = () => (
             <span>&bull;</span>
             <em className="date">November 2019 - Feb 2021</em>
           </p>
-          <li>Made partner within three months of being hired</li>
+          <li>Promoted within three months of being hired</li>
           <li>Leveraged Vue/Vuex/Tailwind to build an intuitive single page application for users to manage their crypto auto rebalancing</li>
           <li>Implement from start to finish the integration of rebalancing support for additional crypto exchanges</li>
           <li>Involved in all phases and steps in the software development life-cycle: requirements, design, implementation, testing and improving</li>
