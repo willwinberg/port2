@@ -23,10 +23,10 @@ const Skills = () => (
               <em>TypeScript</em>
             </li>
             <li>
-              <em>Nuxt</em>
+              <em>Vue</em>
             </li>
             <li>
-              <em>Vue 3</em>
+              <em>Nuxt</em>
             </li>
             <li>
               <em>CSS3</em>
@@ -54,7 +54,7 @@ const Skills = () => (
               <em>SQL</em>
             </li>
             <li>
-              <em>OAuth</em>
+              <em>Auth</em>
             </li>
           </ul>
         </div>
