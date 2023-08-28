@@ -11,16 +11,33 @@ const Work = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
+          <h3>Freelance</h3>
+          <p className="info">
+            Web Application Developer
+            <span>&bull;</span>
+            <em className="date">Mar 2023 - Present</em>
+          </p>
+          <li>Built an MVP (WIP) e-commerce platform for a small business complete with grants them full autonomy over their platform, as opposed to using a subscription service</li>
+          <li>Building a CMS platform for a gym to manage its personal training clients which will massively reduce logistical work and improve communication/upselling</li>
+          <li>Consult clients on frontend Vue architecture and development</li>
+        </div>
+      </div>
+    </div>
+
+    <div className="nine columns main-col">
+      <div className="row item">
+        <div className="twelve columns">
           <h3>StreamNative</h3>
           <p className="info">
             Software Engineer
             <span>&bull;</span>
-            <em className="date">Feb 2021 - Present</em>
+            <em className="date">Nov 2020 - Mar 2023</em>
           </p>
-          <li>Modularized the entire customer facing application into a custom component library leveraging Vue SFCs and Vuex, while swapping over to Vue 3/Composition API</li>
-          <li>Built from scratch a Gridsome marketing site that leverages Netlify CMS for marketing teams to manage content without the need for developers' time</li>
-          <li>Put in to place an extensive style guide and employed TypeScript and ESLint to ensure quality in a growing repositories with several contributors</li>
-          <li>Collaborate closely with other engineers and marketing personnel alike to deliver quality solutions to problems, adapting to rapidly evolving needs</li>
+          <li>Developed a custom well-documented and tested UI library in collaboration with product designers’ specs to be used across multiple projects, resulting in a considerably more efficient, uniform and streamlined development flow for new features</li>
+          <li>Refactored the entire customer facing Vue application into well defined/documented and tested modules resulting in much more pleasant and productive developer experience</li>
+          <li>Put into place an extensive style/contribution guide to ensure code quality/uniformity among several contributors in evergrowing repositories cutting review time in half reducing repetitive/cumbersome change requests</li>
+          <li>Built from scratch a CMS marketing site which allowed marketing teams to manage content independently, cutting turnaround time by 90% completely eliminating the need for engineers in the content development flow</li>
+          <li>Leveraged Cypress to increase e2e test coverage from 0 to to 87% (component library 100%) drastically improving the continuous integration development cycle</li>
         </div>
       </div>
     </div>
@@ -32,12 +49,13 @@ const Work = () => (
           <p className="info">
             Software Developer
             <span>&bull;</span>
-            <em className="date">November 2019 - Feb 2021</em>
+            <em className="date">Dec 2019 - Nov 2020</em>
           </p>
-          <li>Promoted within three months of being hired</li>
-          <li>Leveraged Vue/Vuex/Tailwind to build an intuitive single page application for users to manage their crypto auto rebalancing</li>
-          <li>Implement from start to finish the integration of rebalancing support for additional crypto exchanges</li>
-          <li>Involved in all phases and steps in the software development life-cycle: requirements, design, implementation, testing and improving</li>
+          <li>Took lead of the Vue frontend within 2 months of being hired</li>
+          <li>Implemented, from server to client, support for 5 additional crypto exchanges resulting in a 60% increase in user onboarding completion</li>
+          <li>Developed a user analytics and bug tracking system which areas for improvement and increased user retention by 28%</li>
+          <li>Implemented a contribution/style guide which eliminated cumbersome merge conflicts</li>
+          <li>Developed an application new-user walkthrough which resulted in a 3x increase in users completing account setup requirements</li>
         </div>
       </div>
     </div>
@@ -49,12 +67,12 @@ const Work = () => (
           <p className="info">
             Software Engineer
             <span>&bull;</span>
-            <em className="date">March 2019 - November 2019</em>
+            <em className="date">Mar 2019 - Feb 2020</em>
           </p>
-          <li>Built from scratch (Nuxt/Node/Mongo) a custom task management app to be use internally by engineers and non-technical management alike</li>
-          <li> Preparing existing platforms for massive consolidation and integrating several Laravel apps in to one source of truth with custom composer packages</li>
-          <li>Visualize, design, and develop new ecommerce features, being sure that changes are scalable, efficient, well reviewed and continuously integrated</li>
-          <li>Examine existing systems, identifying flaws and creating solutions to improve customer and employee experience</li>
+          <li>Developed a feature to notify users of discounted shipping on orders which meet minimum requirements. This increased average order profit margin by 12% and “featured” item sales by 33%</li>
+          <li>Integrated SMS notifications for customers to track their shipments which decreased support requests by 14% (40% when opted into)</li>
+          <li>Developed a polymorphic “persisted shopping cart” feature to be used across three separate e-commerce applications resulting in a 24% increase in cart retention</li>
+          <li>Built from scratch a task tracking web app to streamline feature/bug reporting between engineers and non-technical teams which cut requirement/detail gathering time by 80%</li>
         </div>
       </div>
     </div>
