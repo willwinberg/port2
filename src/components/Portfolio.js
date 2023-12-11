@@ -3,6 +3,8 @@ import Project from "./Project";
 
 import CloudManager from "../assets/images/portfolio/cloudmanager.png";
 import CloudManagerModal from "../assets/images/portfolio/modals/m-cloudmanager.png";
+import Streamvisor from "../assets/images/portfolio/cloudmanager.png";
+import StreamvisorModal from "../assets/images/portfolio/modals/m-cloudmanager.png";
 import Snio from "../assets/images/portfolio/snio.png";
 import SnioModal from "../assets/images/portfolio/modals/m-snio.png";
 import BlueTube from "../assets/images/portfolio/bluetube.jpg";
@@ -22,6 +24,18 @@ const Portfolio = () => {
             id="portfolio-wrapper"
             className="bgrid-quarters s-bgrid-thirds cf"
           >
+              <Project
+              route={"#modal-07"}
+              pic={Streamvisor}
+              title={"Streamvisor"}
+              description={"A browser app for managing Pulsar instances."}
+              modal={StreamvisorModal}
+              id={"modal-07"}
+              synopsis={"A Pulsar management solution that helps businesses capture, observe, administer, and secure data. The platform enables administrators to gain insight into event-driven architecture, explore live data, monitor key metrics, and access multiple environments."}
+              tech={"Vue 3, Pinia, Vuetify"}
+              url={"https://docs.streamvisor.com/installation/"}
+              git={"https://github.com/streamvisor/streamvisor"}
+            />
             <Project
               route={"#modal-07"}
               pic={CloudManager}
@@ -30,7 +44,7 @@ const Portfolio = () => {
               modal={CloudManagerModal}
               id={"modal-07"}
               synopsis={"StreamNative Cloud delivers a resilient and scalable messaging and event streaming service deployable in minutes. We'll manage Pulsar for you so that you don't have to spend time or resources to deploy, upgrade, or maintain your clusters."}
-              tech={"Vue 3, Vuex, Tailwind, Quasar-UI"}
+              tech={"Vue 3, Tailwind, Quasar-UI"}
               url={"https://auth.streamnative.cloud/login"}
               git={"https://github.com/streamnative"}
             />
@@ -41,8 +55,8 @@ const Portfolio = () => {
               description={"The front facing marketing site for StreamNative."}
               modal={SnioModal}
               id={"modal-08"}
-              synopsis={"This app uses a MySQL database to keep track of managers and their corresponding employees. A user may create, edit and delete an account. Also, they may andd employees to their account with details."}
-              tech={"Gridsome/Vue, Netlify CMS, SSR, tailwind"}
+              synopsis={"The marketing site for StreamNative built with Gridsome (Gatsby for Vue), GraphQL and Netlify CMS. This architexture allows the marketing team as well as outside content creators to modify all site content with zero need for developers' time. The Gridsome generated static site as well as the CMS are also configured to handle multi-language content with i18n."}
+              tech={"Gridsome/Vue, Netlify CMS, SSR, Tailwind"}
               url={"https://streamnative.io/"}
               git={"https://github.com/streamnative"}
             />
