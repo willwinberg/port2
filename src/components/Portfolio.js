@@ -3,8 +3,8 @@ import Project from "./Project";
 
 import CloudManager from "../assets/images/portfolio/cloudmanager.png";
 import CloudManagerModal from "../assets/images/portfolio/modals/m-cloudmanager.png";
-import Streamvisor from "../assets/images/portfolio/cloudmanager.png";
-import StreamvisorModal from "../assets/images/portfolio/modals/m-cloudmanager.png";
+import Streamvisor from "../assets/images/portfolio/streamvisor.jpg";
+import StreamvisorModal from "../assets/images/portfolio/modals/m-streamvisor.jpg";
 import Snio from "../assets/images/portfolio/snio.png";
 import SnioModal from "../assets/images/portfolio/modals/m-snio.png";
 import BlueTube from "../assets/images/portfolio/bluetube.jpg";
